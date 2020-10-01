@@ -25,7 +25,7 @@ CPAN address. See the "authors/tbrowder.d/tbrowder"
 file for an example.
 
 In the authors' directories, blog entries will be
-entered in subdirectories named by ISOish foramat *yyyy-mm-yyThhmmZ*.
+entered in subdirectories named by ISOish format *yyyy-mm-yyThhmmZ*.
 All entries there must be referenced in a file named "blog.md".
 
 An example author's blog layout would look something like
