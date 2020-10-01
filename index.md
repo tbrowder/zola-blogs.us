@@ -8,7 +8,8 @@ is in repo [github.com/tbrowder/zola-blogs.us].
 
 Those wanting to add a blog here will have the
 choice of sending me your article, in Markdown 
-format, to []() or forking the repo and submitting
+format, to [tbrowder@cpan.org](mailto:tbrowder@cpan.org) or 
+forking the repo and submitting
 a PR.
 
 The domain name comes from [Zola](https://getzola.org), the static
