@@ -2,9 +2,9 @@ This is a site for blog posts by
 developers and programmers.
 
 It is a work in progress, but the plan is to host 
-my blogs plus those of others loking for a free
+my blogs plus those of others looking for a free
 blog site. It runs on Github and its source
-is in repo [github.com/tbrowder/zola-blogs.us].
+is in repo [github.com/tbrowder/zola-blogs.us](https://github.com/tbrowder/zola-blogs.us).
 
 Those wanting to add a blog here will have the
 choice of sending me your article, in Markdown 
