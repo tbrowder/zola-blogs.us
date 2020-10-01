@@ -1,3 +1,8 @@
++++
+title = "Zola Blogs"
+date = 2020-10-01
++++
+
 This is a site for blog posts by
 developers and programmers.
 
@@ -12,9 +17,6 @@ than English I will try to accomodate that,
 but I will have to find a Raku lang collaborator fluent
 in your desired language willing
 to assist me in helping you.
-
-**WARNING SOME INFORMATION BELOW THIS LINE IS SUBJECT TO CHANGE**
-UNTIL THIS WARNING IS REMOVED**
 
 Interested bloggers will have to check the "authors"
 directory in the repo and pick a unique, short name
