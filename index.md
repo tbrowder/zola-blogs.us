@@ -6,10 +6,11 @@ my blogs plus those of others looking for a free
 blog site. It runs on Github and its source
 is in repo [github.com/tbrowder/zola-blogs.us](https://github.com/tbrowder/zola-blogs.us).
 
-In spite of the domain, I welcome bloggers from
+In spite of the domain name, I welcome bloggers from
 every nation. If you want to blog in another language
 than English I will try to accomodate that,
-but I will have to find a Raku lang collaborator willing
+but I will have to find a Raku lang collaborator fluent
+in your desired language willing
 to assist me in helping you.
 
 Interested bloggers will have to check the "authors"
