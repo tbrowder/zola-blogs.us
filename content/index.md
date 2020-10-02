@@ -18,6 +18,9 @@ but I will have to find a Raku lang collaborator fluent
 in your desired language willing
 to assist me in helping you.
 
+**WARNING: SOME INFORMATION BELOW THIS LINE IS SUBJECT TO CHANGE
+UNTIL THIS WARNING IS REMOVED**
+
 Interested bloggers will have to check the "authors"
 directory in the repo and pick a unique, short name
 in ASCII chars for your site alias. Create a
