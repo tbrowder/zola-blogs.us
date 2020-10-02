@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://zola-blogs.us/sitemap.xml
