@@ -1,43 +1,201 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>Zola</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+      <title> - Zola Blogs</title>
+
+      
+
+      
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+          
+      
+
+      
+          <link rel="stylesheet" href="https:&#x2F;&#x2F;zola-blogs.us&#x2F;site.css">
+          
+      
+
+      
+      
     </head>
+
     <body>
         <div class="container">
-            <h1>Welcome to Zola!</h1>
-            <p>
-                You're seeing this page because we couldn't find a template to render.
-            </p>
-            <p>
-                To modify this page, create a <b>page.html</b> file in the templates directory or
-                <a href="https://www.getzola.org/documentation/themes/installing-and-using-themes/" target="_blank">install a theme</a>.
-                <br>
-                You can find what variables are available in this template in the <a href="https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;templates&#x2F;pages-sections&#x2F;#page-variables" target="_blank">documentation</a>.
-            </p>
+
+            <div id="mobile-navbar" class="mobile-navbar">
+              <div class="mobile-header-logo">
+                <a href="/" class="logo">Even</a>
+              </div>
+              <div class="mobile-navbar-icon icon-out">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+              <ul class="mobile-menu-list">
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;zola-blogs.us">
+                            Home
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;zola-blogs.us&#x2F;categories">
+                            Categories
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;zola-blogs.us&#x2F;tags">
+                            Tags
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;zola-blogs.us&#x2F;about">
+                            About
+                        </a>
+                    </li>
+                
+              </ul>
+            </nav>
+
+            <header id="header">
+                <div class="logo"><a href="https:&#x2F;&#x2F;zola-blogs.us">Even</a></div>
+                <nav class="menu">
+                    <ul>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;zola-blogs.us">
+                                    Home
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;zola-blogs.us&#x2F;categories">
+                                    Categories
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;zola-blogs.us&#x2F;tags">
+                                    Tags
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;zola-blogs.us&#x2F;about">
+                                    About
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="content" id="mobile-panel">
+                    
+
+
+
+<article class="post">
+    
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;zola-blogs.us&#x2F;content&#x2F;">Zola Blogs</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">2020-10-01</span>
+            
         </div>
-        <footer>
-            <a href="https://www.getzola.org/documentation/getting-started/cli-usage/" target="_blank">Get started with Zola</a>
-        </footer>
-        <style>
-            html {
-                line-height: 1.5;
-            }
-            h1 {
-                margin-bottom: 2rem;
-            }
-            .container {
-                font-family: "sans-serif";
-                text-align: center;
-                margin-top: 20vh;
-                padding: 2rem;
-                background: #e9e9e9;
-            }
-            footer {
-                position: fixed;
-                width: 100%;
-                bottom: 1rem;
-                text-align: center;
-            }
-        </style>
+    </header>
+
+    <div class="post-content">
+      <p>This is a site for blog posts by
+developers and programmers.</p>
+<p>It is a work in progress, but the plan is to host 
+my blogs plus those of others looking for a free
+blog site. It runs on Github and its source
+is in repo <a href="https://github.com/tbrowder/zola-blogs.us">github.com/tbrowder/zola-blogs.us</a>.</p>
+<p>In spite of the domain name, I welcome bloggers from
+every nation. If you want to blog in another language
+than English I will try to accomodate that,
+but I will have to find a Raku lang collaborator fluent
+in your desired language willing
+to assist me in helping you.</p>
+<p><strong>WARNING: SOME INFORMATION BELOW THIS LINE IS SUBJECT TO CHANGE
+UNTIL THIS WARNING IS REMOVED</strong></p>
+<p>Interested bloggers will have to check the &quot;authors&quot;
+directory in the repo and pick a unique, short name
+in ASCII chars for your site alias. Create a
+directory NAME.d and under that create a NAME file.
+In that file,
+please enter your real name. You can either add more
+contact data you want to share with the world or,
+as a minimum, send a valid email to me at my
+CPAN address. See the &quot;authors/tbrowder.d/tbrowder&quot;
+file for an example.</p>
+<p>In the authors' directories, blog entries will be
+entered in subdirectories named by ISOish format <em>yyyy-mm-yyThhmmZ</em>.
+All entries there must be referenced in a file named &quot;blog.md&quot;.</p>
+<p>An example author's blog layout would look something like
+this:</p>
+<pre style="background-color:#2b303b;">
+<code>authors/
+    joey.d/
+        joey
+        2020-10-23T2157Z/
+            blog.md
+</code></pre>
+<p>Those wanting to add a blog here will have the
+choice of sending me your article, in Markdown 
+format, to <a href="mailto:tbrowder@cpan.org">tbrowder@cpan.org</a> or 
+forking the repo and submitting
+a PR. Any additional resources should be zipped into a 
+single archive and attached to any email.</p>
+<p>The domain name comes from <a href="https://getzola.org">Zola</a>, the static
+website generator. (Its original name was
+<em>Gutenberg</em>.)</p>
+
+    </div>
+
+    
+    
+
+    <div class="post-footer">
+        
+            
+            
+
+        
+
+    </div>
+
+    
+    
+</article>
+
+
+                </div>
+            </main>
+
+            
+            
+        </div>
+
+      
+          <script type="text/javascript" src="https:&#x2F;&#x2F;zola-blogs.us&#x2F;even.js" ></script>
+      
     </body>
+
 </html>
