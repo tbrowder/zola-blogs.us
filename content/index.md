@@ -39,12 +39,12 @@ All entries there must be referenced in a file named "blog.md".
 An example author's blog layout would look something like
 this:
 
-```perl
-    authors/
-        joey.d/
-            joey
-            2020-10-23T2157Z/
-                blog.md
+```
+authors/
+    joey.d/
+        joey
+        2020-10-23T2157Z/
+            blog.md
 ```
 
 Those wanting to add a blog here will have the
