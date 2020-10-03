@@ -6,7 +6,7 @@ date = 2020-10-01
 This is a site for blog posts by
 developers and programmers.
 
-It is a work in progress, but the plan is to host 
+It is a work in progress, but the plan is to host
 my blogs plus those of others looking for a free
 blog site. It runs on Github and its source
 is in repo [github.com/tbrowder/zola-blogs.us](https://github.com/tbrowder/zola-blogs.us).
@@ -39,18 +39,19 @@ All entries there must be referenced in a file named "blog.md".
 An example author's blog layout would look something like
 this:
 
+```perl
     authors/
         joey.d/
             joey
             2020-10-23T2157Z/
                 blog.md
-
+```
 
 Those wanting to add a blog here will have the
-choice of sending me your article, in Markdown 
-format, to [tbrowder@cpan.org](mailto:tbrowder@cpan.org) or 
+choice of sending me your article, in Markdown
+format, to [tbrowder@cpan.org](mailto:tbrowder@cpan.org) or
 forking the repo and submitting
-a PR. Any additional resources should be zipped into a 
+a PR. Any additional resources should be zipped into a
 single archive and attached to any email.
 
 The domain name comes from [Zola](https://getzola.org), the static
