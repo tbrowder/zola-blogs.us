@@ -3,7 +3,7 @@ title = "Zola Blogs"
 date = 2020-10-01
 +++
 
-This is a site for blog posts by
+This is a free site for blog posts by
 developers and programmers.
 
 It is a work in progress, but the plan is to host
@@ -17,6 +17,12 @@ than English I will try to accomodate that,
 but I will have to find a Raku lang collaborator fluent
 in your desired language willing
 to assist me in helping you.
+
+## PLANS
+
+The site layout is very much a work-in-progress (WIP).
+
+I plan to add a blog comment capability using [Staticman](https://staticman.net).
 
 **WARNING: SOME INFORMATION BELOW THIS LINE IS SUBJECT TO CHANGE
 UNTIL THIS WARNING IS REMOVED**
@@ -33,8 +39,8 @@ CPAN address. See the "authors/tbrowder.d/tbrowder"
 file for an example.
 
 In the authors' directories, blog entries will be
-entered in subdirectories named by ISOish format *yyyy-mm-yyThhmmZ*.
-All entries there must be referenced in a file named "blog.md".
+entered in subdirectories named by ISO date format **yyyy-mm-yy**.
+All entries there must be referenced in a file named "index.md".
 
 An example author's blog layout would look something like
 this:
@@ -43,8 +49,8 @@ this:
 authors/
     joey.d/
         joey
-        2020-10-23T2157Z/
-            blog.md
+        2020-10-23/
+            index.md
 ```
 
 Those wanting to add a blog here will have the

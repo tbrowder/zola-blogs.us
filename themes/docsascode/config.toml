@@ -3,7 +3,6 @@ compile_sass = true
 title = "Docs title"
 highlight_code = true
 highlight_theme = "kronuz"
-#highlight_theme = "base16-ocean-light"
 
 build_search_index = true
 
