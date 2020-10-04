@@ -3,6 +3,8 @@ title = "ABOUT"
 date = 2020-10-01
 +++
 
+# Zola Blogs
+
 This is a free site for blog posts by
 developers and programmers.
 
@@ -39,7 +41,7 @@ CPAN address. See the "authors/tbrowder.d/tbrowder"
 file for an example.
 
 In the authors' directories, blog entries will be
-entered in subdirectories named by ISO date format **yyyy-mm-yy**.
+entered in subdirectories named by ISO date format **yyyy-mm-dd**.
 All entries there must be referenced in a file named "index.md".
 
 An example author's blog layout would look something like
