@@ -1,5 +1,5 @@
 +++
-title = "Zola Blogs"
+title = "HOME"
 +++
 
 This is a free blogging site for programmers
