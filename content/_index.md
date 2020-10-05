@@ -9,7 +9,10 @@ title = "HOME"
 
 ## My second blog post is about Raku
 
-Author: Tom Browder [tbrowder]()
+Author: Tom Browder [*link to author's section*]
+
+Note: see available code highlighting schemes at this
+[site](https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting).
 
 This page (the home or landing page) shows initial fragments of all
 posts on the site.  Posts are shown in reverse date order (latest
@@ -18,17 +21,16 @@ processing instruction whose contents are "lang:
 SOME-PROGRAMMING-LANGUAGE".  This post is supposed to show a few lines
 of text and end with a link to the complete post.
 
-Indented code block:
+Following is an example of code highlighting with scheme
+*material-dark*. See other available code highlighting schemes at this
+[site](https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting)
+(note not all links work to show examples of the highlighting).
 
-    say "foo";
-
-Code block with back-ticks:
-
-```
+```perl
 say "foo";
 ...
 ```
-[read more...]
+[*read more...*]
 
 ---
 
@@ -36,12 +38,12 @@ say "foo";
 
 ## My first blog post
 
-Author: Tom Browder [tbrowder]()
+Author: Tom Browder [*link to author's section*]
 
 This is a free blogging site for programmers
 and developers. See the ABOUT section
 for details and instructions
 for registering as an author.
-[read more...]
+[*read more...*]
 
 ---
