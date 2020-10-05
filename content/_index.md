@@ -8,7 +8,7 @@ title = "HOME"
 
 2020-10-05
 
-## My second blog post
+## My second blog post is about Raku
 
 This page is supposed to show a few
 lines of text and and with a link
