@@ -18,6 +18,12 @@ processing instruction whose contents are "lang:
 SOME-PROGRAMMING-LANGUAGE".  This post is supposed to show a few lines
 of text and end with a link to the complete post.
 
+Indented code block:
+
+    say "foo";
+
+Code block with back-ticks:
+
 ```
     say "foo";
     ...
