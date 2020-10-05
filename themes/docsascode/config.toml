@@ -1,9 +1,9 @@
 base_url = "/"
 compile_sass = true
 title = "Docs title"
-highlight_code = true
+#highlight_code = true
 #highlight_theme = "material-dark"
-highlight_theme = "solarized-dark"
+#highlight_theme = "solarized-dark"
 
 build_search_index = true
 
