@@ -1,7 +1,7 @@
 %YAML 1.2
 ---
 # See http://www.sublimetext.com/docs/3/syntax.html
-file_extensions: [p6, pm6, pod6]
+file_extensions: [p6, pm6, pod6, raku, rakumod, rakutest, t]
 scope: source.perl6
 
 contexts:

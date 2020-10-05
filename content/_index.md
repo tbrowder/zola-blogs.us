@@ -18,16 +18,16 @@ processing instruction whose contents are "lang:
 SOME-PROGRAMMING-LANGUAGE".  This post is supposed to show a few lines
 of text and end with a link to the complete post.
 
-Following is an example of Perl code highlighting with scheme
+Following is an example of Raku code highlighting (courtesy of @codesections) with scheme
 *solarized-dark*. See other available code highlighting schemes at this
 [site](https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting)
 (note not all links work to show examples of the highlighting).
 
 Please suggest better alternatives to the chosen scheme.  (Raku syntax
-highlighting is not yet available, but an issue has been filed with
-Zola.)
+highlighting is not yet available from Zola, but an issue has been filed with
+the Zola repository.)
 
-```perl
+```perl6
 my $foo = 'foo';
 say $foo;
 ...
