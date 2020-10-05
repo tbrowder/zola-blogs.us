@@ -9,7 +9,7 @@ title = "HOME"
 
 ## My second blog post is about Raku
 
-author: Tom Browder (tbrowder)
+Author: Tom Browder [tbrowder]()
 
 This page (the home or landing page) shows initial fragments of all
 posts on the site.  Posts are shown in reverse date order (latest
@@ -25,8 +25,8 @@ Indented code block:
 Code block with back-ticks:
 
 ```
-    say "foo";
-    ...
+say "foo";
+...
 ```
 [read more...]
 
@@ -35,6 +35,8 @@ Code block with back-ticks:
 2020-10-04
 
 ## My first blog post
+
+Author: Tom Browder [tbrowder]()
 
 This is a free blogging site for programmers
 and developers. See the ABOUT section
