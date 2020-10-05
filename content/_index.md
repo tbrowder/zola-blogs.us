@@ -11,9 +11,6 @@ title = "HOME"
 
 Author: Tom Browder [*link to author's section*]
 
-Note: see available code highlighting schemes at this
-[site](https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting).
-
 This page (the home or landing page) shows initial fragments of all
 posts on the site.  Posts are shown in reverse date order (latest
 first).  Following the date line is an optional line with an HTML
@@ -25,9 +22,11 @@ Following is an example of code highlighting with scheme
 *material-dark*. See other available code highlighting schemes at this
 [site](https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting)
 (note not all links work to show examples of the highlighting).
+Please suggest better alternatives to the chosen scheme.
 
 ```perl
-say "foo";
+my $foo = 'foo';
+say $foo;
 ...
 ```
 [*read more...*]
