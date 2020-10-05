@@ -4,16 +4,20 @@ title = "HOME"
 
 ---
 
-<? lang: raku ?>
-
 2020-10-05
+<? lang: raku ?>
 
 ## My second blog post is about Raku
 
-Following the leading horizontal rule is has an HTML processing instruction whose
-contents are "lang: raku".
-This page is supposed to show a few
-lines of text and and with a link
+author: Tom Browder (tbrowder)
+
+This page (the home or landing page) shows initial
+fragments of all posts on the site.
+Posts are shown in reverse date order (latest first).
+Following the date line is an optional line with an HTML processing instruction whose
+contents are "lang: SOME-PROGRAMMING-LANGUAGE".
+This post is supposed to show a few
+lines of text and end with a link
 to the complete post
 [read more...]
 
