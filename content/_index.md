@@ -2,7 +2,7 @@
 title = "HOME"
 +++
 
-# LATEST
+# LATEST 
 
 2020-10-05
 
