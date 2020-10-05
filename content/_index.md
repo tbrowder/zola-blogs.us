@@ -10,6 +10,8 @@ title = "HOME"
 
 ## My second blog post is about Raku
 
+Following the leading horizontal rule is has an HTML processing instruction whose
+contents are "lang: raku".
 This page is supposed to show a few
 lines of text and and with a link
 to the complete post
