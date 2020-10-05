@@ -2,7 +2,9 @@
 title = "HOME"
 +++
 
-# LATEST 
+---
+
+<? lang: raku ?>
 
 2020-10-05
 
@@ -13,6 +15,8 @@ lines of text and and with a link
 to the complete post
 [read more...]
 
+---
+
 2020-10-04
 
 ## My first blog post
@@ -22,3 +26,6 @@ and developers. See the ABOUT section
 for details and instructions
 for registering as an author.
 [read more...]
+
+---
+
