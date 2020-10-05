@@ -27,7 +27,7 @@ Please suggest better alternatives to the chosen scheme.  (Raku syntax
 highlighting is not yet available from Zola, but an issue has been filed with
 the Zola repository.)
 
-```
+```perl
 my $foo = 'foo';
 say $foo;
 ...
