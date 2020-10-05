@@ -18,7 +18,11 @@ Following the date line is an optional line with an HTML processing instruction 
 contents are "lang: SOME-PROGRAMMING-LANGUAGE".
 This post is supposed to show a few
 lines of text and end with a link
-to the complete post
+to the complete post.
+
+    say "foo";
+    ...
+
 [read more...]
 
 ---
