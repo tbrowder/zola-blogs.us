@@ -19,7 +19,7 @@ SOME-PROGRAMMING-LANGUAGE".  This post is supposed to show a few lines
 of text and end with a link to the complete post.
 
 Following is an example of Perl code highlighting with scheme
-*solorized-dark*. See other available code highlighting schemes at this
+*solarized-dark*. See other available code highlighting schemes at this
 [site](https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting)
 (note not all links work to show examples of the highlighting).
 
