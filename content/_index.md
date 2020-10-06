@@ -17,9 +17,9 @@ first).  Following the date line is an optional line with an HTML
 processing instruction whose contents are "lang:
 SOME-PROGRAMMING-LANGUAGE".  This post is supposed to show a few lines
 of text and end with a link to the complete post.
+<? end-intro: blog ?>
 
 Following is an example of Perl code highlighting with scheme
-<? end-intro: blog ?>
 *solarized-dark*. See other available code highlighting schemes at this
 [site](https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting)
 (note not all links work to show examples of the highlighting).
