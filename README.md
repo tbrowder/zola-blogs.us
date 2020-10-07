@@ -3,3 +3,5 @@
 # Zola Blogs
 
 A free Zola blogging platform for programmers and developers
+
+Some Zola hints when using the "Docsascode" theme:
