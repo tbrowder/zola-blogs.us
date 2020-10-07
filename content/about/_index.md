@@ -29,38 +29,43 @@ I plan to add a blog comment capability using [Staticman](https://staticman.net)
 **WARNING: SOME INFORMATION BELOW THIS LINE IS SUBJECT TO CHANGE
 UNTIL THIS WARNING IS REMOVED**
 
-Interested bloggers will have to check the "authors"
-directory in the repo and pick a unique, short name
-in ASCII chars for your site alias. Create a
-directory NAME.d and under that create a NAME file.
+Interested bloggers will have to check the "AUTHORS"
+directory in the repo and pick a unique, short NAME
+in ASCII chars for his site alias. Create a
+directory NAME and under that create a NAME.dat file.
 In that file,
 please enter your real name. You can either add more
 contact data you want to share with the world or,
 as a minimum, send a valid email to me at my
-CPAN address. See the "authors/tbrowder.d/tbrowder"
+CPAN address (tbrowder@cpan.org). See the 'AUTHORS/tbrowder/tbrowder.dat'
 file for an example.
 
 In the authors' directories, blog entries will be
-entered in subdirectories named by ISO date format **yyyy-mm-dd**.
-All entries there must be referenced in a file named "index.md".
+entered in a 'blogs' subdirectory and named by ISO date format
+with an '.md' extension. For example, author 'joe'
+might have a blog post of 'AUTHORS/joe/blogs/2020-10-09.md'.
+If you have multiple entries for a day, use a numerical suffix
+to the ISO date, e.g., 'yyyy-mm-dd.2.md'.
+The blog file itself must be in Markdown format which will
+be converted into an HTML file for the website.
 
 An example author's blog layout would look something like
 this:
 
 ```
-authors/
-    joey.d/
-        joey
-        2020-10-23/
-            index.md
+AUTHORS/
+    joe/
+        joe.dat
+        blogs/
+            2020-10-01.md
+            2020-10-23.md
+            2020-10-23.2.md
+            2020-10-23.4.md
 ```
 
-Those wanting to add a blog here will have the
-choice of sending me your article, in Markdown
-format, to [tbrowder@cpan.org](mailto:tbrowder@cpan.org) or
-forking the repo and submitting
-a PR. Any additional resources should be zipped into a
-single archive and attached to any email.
+Those wanting to add a blog here will have to
+fork the repo and submit
+a PR. 
 
 The domain name comes from [Zola](https://getzola.org), the static
 website generator. (Its original name was
