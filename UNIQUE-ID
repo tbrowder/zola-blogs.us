@@ -12,18 +12,20 @@ post and enforce its uniqueness, then
 we are almost there.
 
 The author's blog file name is in
-format yyyy-mm-dd[.N] so, for author X
-we have a unique ID:
+format yyyy-mm-dd[a..zA..Z].md so, for author X
+we have one or more unique IDs:
 
-    X-yyyy-mm-dd[.N].md
+    2020-10-03.X
+    2020-10-03a.X
+    2020-10-03b.X
 
 where
 
-    X-yyyy-mm-dd.1.md
+    2020-10-03a.X
 
 is later than
 
-    X-yyyy-mm-dd.md
+    2020-10-03.X
 
 + Time ties for multiple authors
 
@@ -31,19 +33,20 @@ If two or more authors submit a post
 on the same date, the order will be
 determined by the value of
 the internal "time: yyyy-mm-ddThh:mmZ"
-value that is required for all posts.
+value that is required for all posts on
+the same day.
 
 We keep a database of posts as they
 are accepted and assign an order number
 which establishes the immutable order.
 The database entries will be:
 
-  order  ID
+  order  ID filename
 
 where order starts with 1 and increments by 1
 with each unique new ID entry.
 
 The database will be a flat file until it
-becomes big enough to look for another
+becomes large enough to look for another
 solution.
 
