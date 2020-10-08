@@ -2,11 +2,13 @@
 
 use File::Find;
 use Text::Utils :strip-comment, :normalize-string;
-use DB::SQLite;
+
+use lib <./lib>;
+use Blogs; # local lib
 
 if not @*ARGS.elems {
     say qq:to/HERE/;
-    Usage: {$*PROGRAM.IO.basename} go
+    Usage: {$*PROGRAM.IO.basename} build | index [debug]
 
     Creates various sections and pages for this Zola website.
     HERE
@@ -14,9 +16,14 @@ if not @*ARGS.elems {
 }
 
 my $debug = 0;
+my $index = 0;
+my $draft = 0;
 for @*ARGS {
-    when /^g/ {
+    when /^b/ {
         ; # ok
+    }
+    when /^i/ {
+        $index = 1;
     }
     when /^d/ {
         $debug = 1;
@@ -69,6 +76,5 @@ sub coll-blog-data(:$dir, :$debug) {
             say "  $author" if $debug;
         }
     }
-
 }
 

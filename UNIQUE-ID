@@ -17,7 +17,21 @@ we have a unique ID:
 
     X-yyyy-mm-dd[.N].md
 
-+ Immutable order
+where
+
+    X-yyyy-mm-dd.1.md
+
+is later than
+
+    X-yyyy-mm-dd.md
+
++ Time ties for multiple authors
+
+If two or more authors submit a post
+on the same date, the order will be
+determined by the value of
+the internal "time: yyyy-mm-ddThh:mmZ"
+value that is required for all posts.
 
 We keep a database of posts as they
 are accepted and assign an order number
@@ -29,6 +43,7 @@ The database entries will be:
 where order starts with 1 and increments by 1
 with each unique new ID entry.
 
-The database will be an SQLite db using DB::SQLite
-for the interface module.
+The database will be a flat file until it
+becomes big enough to look for another
+solution.
 

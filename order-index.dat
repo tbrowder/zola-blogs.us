@@ -1,0 +1,6 @@
+# a flat file db of blog entries
+# ordered from latest to earliest
+#
+# fields are space separated:
+#
+# weight (1 to N)  file name
