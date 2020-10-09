@@ -1,0 +1,11 @@
+name: Joe Cool
+city: Denver, Colorado
+country: US
+email: joe-cool@example.com
+
+# Put any info about yourself you want
+# to share in the following "info:" section.
+# Use Markdown format after that key word.
+info:
+
+
