@@ -15,6 +15,9 @@ class Blog is export {
     # blog title from the "title:" key in the blog file
     has $.title;
     
+    has $.id;
+    has $.id2;
+
     # OPTIONAL ENTRIES
     # the programming language under discussion, e.g., raku, perl, rust, ...; used to create tags
     # defined in the "lang:" key in the blog file
