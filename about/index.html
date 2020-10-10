@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+      <title>  | ABOUT </title>     
+      <link rel="stylesheet" href="https://zola-blogs.us/main.css">
+    </head>
+
+    <body>
+      <nav>
+        <div id="subnav">
+          <form class="theme-selector">
+            <button type="button" id="theme-light-button" class="theme-button" onclick="enableTheme('light', true)">&#9706;</button>
+            <button type="button" id="theme-dark-button"  class="theme-button enabled" onclick="enableTheme('dark', true)">&#9705;</button>
+          </form>
+          <a href="/search">&#8981;</a>       
+        </div>
+
+      
+    <ul id="breadcrumbs">
+        
+            
+                <li><a href="https:&#x2F;&#x2F;zola-blogs.us&#x2F;">HOME</a>&nbsp;&#8594;&nbsp; </li>
+            
+                <li>ABOUT</li>
+    </ul>
+    <h1>ABOUT</h1>
+    
+    <a href="javascript:void(0);" onclick="burger()" id="mobile">&#9776;</a>
+        <ul id="bger">
+        
+            
+        </ul>
+ 
+
+      </nav>
+
+      <main>
+      
+
+        
+        
+          
+          
+            
+            
+          
+        
+
+        
+
+        <article>
+        <h1 id="zola-blogs">Zola Blogs</h1>
+<p>This is a free site for blog posts by
+developers and programmers.</p>
+<p>It is a work in progress, but the plan is to host
+my blogs plus those of others looking for a free
+blog site. It runs on Github and its source
+is in repo <a href="https://github.com/tbrowder/zola-blogs.us">github.com/tbrowder/zola-blogs.us</a>.</p>
+<p>In spite of the domain name, I welcome bloggers from
+every nation. If you want to blog in another language
+than English I will try to accomodate that,
+but I will have to find a Raku lang collaborator fluent
+in your desired language willing
+to assist me in helping you.</p>
+<h2 id="plans">PLANS</h2>
+<p>The site layout is very much a work-in-progress (WIP).</p>
+<p>I plan to add a blog comment capability using <a href="https://staticman.net">Staticman</a>.</p>
+<p><strong>WARNING: SOME INFORMATION BELOW THIS LINE IS SUBJECT TO CHANGE
+UNTIL THIS WARNING IS REMOVED</strong></p>
+<p>Interested bloggers will have to check the &quot;AUTHORS&quot;
+directory in the repo and pick a unique, short NAME
+in ASCII chars for his site alias. Create a
+directory NAME and under that create a NAME.dat file.
+In that file,
+please enter your real name. You can either add more
+contact data you want to share with the world or,
+as a minimum, send a valid email to me at my
+CPAN address (tbrowder@cpan.org). See the 'AUTHORS/tbrowder/tbrowder.dat'
+file for an example.</p>
+<p>In the authors' directories, blog entries will be
+entered in a 'blogs' subdirectory and named by ISO date format
+with an '.md' extension. For example, author 'joe'
+might have a blog post of 'AUTHORS/joe/blogs/2020-10-09.md'.
+If you have multiple entries for a day, use a numerical suffix
+to the ISO date, e.g., 'yyyy-mm-dd.2.md'.
+The blog file itself must be in Markdown format which will
+be converted into an HTML file for the website.</p>
+<p>An example author's blog layout would look something like
+this:</p>
+<pre style="background-color:#002b36;">
+<code><span style="color:#839496;">AUTHORS/
+    joe/
+        joe.dat
+        blogs/
+            2020-10-01.md
+            2020-10-23.md
+            2020-10-23.2.md
+            2020-10-23.4.md
+</span></code></pre>
+<p>Those wanting to add a blog here will have to
+fork the repo and submit
+a PR. </p>
+<p>The domain name comes from <a href="https://getzola.org">Zola</a>, the static
+website generator. (Its original name was
+<em>Gutenberg</em>.)</p>
+
+        </article>
+      
+      </main>
+
+      <script type="text/javascript" src="https://zola-blogs.us/themes.js"></script>
+
+      <script>
+        function burger() {
+          var x = document.getElementById("bger");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+    </body>
+</html>
