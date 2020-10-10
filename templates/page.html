@@ -15,7 +15,8 @@
 {% block content %}
   <div id="taxonomies">
     {% if page.date %}
-      <date>{{ page.date | date(format="%d.%m.%Y") }}</date>
+      {# change original dd-mm-yyyy to yyyy-mm-dd#}
+      <date>{{ page.date | date(format="%Y.%m.%d") }}</date>
     {% endif %}   
 
     {% if page.taxonomies.authors %}
