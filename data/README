@@ -1,0 +1,3 @@
+We keep the original duplicate blog post
+files in .orig/AUTHORS to enable easy
+reset for testing and development.

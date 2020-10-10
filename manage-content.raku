@@ -7,14 +7,18 @@ use lib <./lib>;
 use Blogs; # local lib
 
 constant $OIDB          = 'data/order-index.dat';
-constant $DRAFT-OIDB    = 'data/draft-order-index.dat';
 constant $CONTENT       = 'content';
 constant $AUTHORS       = 'AUTHORS';
-constant $DRAFT-AUTHORS = 'data/AUTHORS';
 
+# for testing and development (the 'draft' environment)
 # the draft users:
 constant $Ua = 'joe-cool';
 constant $Ub = 'sally-sue';
+constant $DRAFT-OIDB         = 'data/draft-order-index.dat';
+constant $DRAFT-AUTHORS      = 'data/AUTHORS';
+# we keep original blogs with dup filenames in a hidden directory
+# for ease of resetting bad state
+constant $DRAFT-AUTHORS-ORIG = 'data/.orig/AUTHORS';
 
 # draft state:
 my $draft = 1;
@@ -52,12 +56,16 @@ if not @*ARGS.elems {
 
 my $debug = 0;
 my $index = 0;
+my $reset = 0;
 for @*ARGS {
     when /^b/ {
         ; # ok
     }
-    when /^i/ {
+   when /^i/ {
         $index = 1;
+    }
+   when /^r/ {
+        $reset = 1;
     }
     when /^de/ {
         $debug = 1;
@@ -77,6 +85,11 @@ for @*ARGS {
         note "FATAL: Unrecognized arg '$_'";
         exit;
     }
+}
+
+if $reset {
+    reset :$debug; # program exits from there
+    exit;
 }
 
 # collect blog and author info and ensure uniqueness
@@ -172,5 +185,27 @@ sub coll-blog-data(:$dir, :$draft, :$debug) {
             say "  $author" if $debug;
         }
     }
+}
+
+sub reset(:$debug) {
+    # Restores draft AUTHORS dir to its origina state.
+    # Also restores the draft order index db to its
+    # original empty state.
+
+    # leave the dirs and remove the dat and md files
+    my @dfils = find :dir($DRAFT-AUTHORS), :type<file>, :name(/['.md'|'.dat']$/);
+    if $debug {
+        note "DEBUG: dumping $DRAFT-AUTHORS file names:";
+        note "  $_" for @dfils;
+    }
+
+
+    note qq:to/HERE/;
+    Draft AUTHORS state has been resored to its original state
+    with duplicate blog posts.
+    
+    Exiting afterwards.
+    HERE
+    exit;
 }
 
